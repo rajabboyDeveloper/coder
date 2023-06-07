@@ -1,0 +1,28 @@
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: grey;
+  height: 100vh;
+}
+.one {
+  width: 32%;
+  background-color: red;
+  height: 250px;
+}
+.two {
+  width: 32%;
+  background-color: chocolate;
+  height: 250px;
+}
+.three {
+  width: 32%;
+  background-color: goldenrod;
+  height: 250px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

@@ -1,9 +1,11 @@
 import React from "react";
-
+import "./App.css";
 function App() {
   return (
-    <div>
-      <h1>Hello</h1>
+    <div className="box">
+      <div className="one"></div>
+      <div className="two"></div>
+      <div className="three"></div>
     </div>
   );
 }
